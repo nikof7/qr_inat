@@ -5,7 +5,7 @@ Es un proyecto sobre la creación de códigos qr para colocar en diferentes luga
 Esquema de la webapp:
 
 <p align="center">
-<img src="esquema.png" width="480">
+<img src="esquema.png" width="420">
 </p>
 
 ## Log
