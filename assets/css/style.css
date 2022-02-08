@@ -15,10 +15,14 @@
 
 .font-title{
 	font-family: 'ralewayheavy';
-	font-size: 45px;
+	font-size: 40px;
 }
 .card-img-top {
     width: 100%;
     height: 15vw;
     object-fit: cover;
+}
+
+.navbar{
+	padding: 1px 1px 1px;
 }
