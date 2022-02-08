@@ -4,3 +4,16 @@
 .color-lugares-light{
 	color: rgb(255, 209, 89);
 }
+
+@font-face {
+    font-family: 'ralewayheavy';
+    src: url('../fonts/raleway-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-title{
+	font-family: 'ralewayheavy';
+	font-size: 45px;
+}
