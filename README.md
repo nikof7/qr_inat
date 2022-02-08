@@ -1,11 +1,11 @@
-<img src="assets/logo.png" height="50">
+<img src="assets/img/logo.svg" height="50">
 
 Es un proyecto sobre la creación de códigos qr para colocar en diferentes lugares de Uruguay. Al escanear este código qr veremos un grid donde se muestren los organismos más probables de ver en esa área dividios por grupos. La información para calcular probabilidades es a través de la api de [inaturalist](https://api.inaturalist.org/v1/docs/).
 
 Esquema de la webapp:
 
 <p align="center">
-<img src="assets/esquema.png" width="420">
+<img src="old/assets/esquema.png" width="420">
 </p>
 
 ## Log
