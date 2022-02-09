@@ -26,21 +26,3 @@
 .navbar{
 	padding: 1px 1px 1px;
 }
-
-.card {
-    border-radius: 20%;
-}
-
-
-.carousel {
-    border-radius: 20%;
-    overflow: hidden;
-}
-.carousel-inner {
-    border-radius: 10%;
-    overflow: hidden;
-}
-.carousel-item .carousel-item-active{
-    border-radius: 10%;
-    overflow: hidden;
-}
