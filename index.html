@@ -1,158 +1,178 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lugares.uy</title>
-    <!-- Bootstrap core CSS -->
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Iconos -->
-    <script src="https://kit.fontawesome.com/800a43b38b.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Lugares.uy</title>
+      <!-- Bootstrap core CSS -->
+      <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Iconos -->
+      <script src="https://kit.fontawesome.com/800a43b38b.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
       <div class="collapse bg-light" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-3">
-              <h4 class="color-lugares-dark">¿De qué se trata?</h4>
-              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan tortor et justo laoreet, in iaculis diam pretium. Nunc posuere neque nisi, nec tristique neque tempor id. Etiam nec ultrices est, non varius massa.</p>
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8 col-md-7 py-3">
+                  <h4 class="color-lugares-dark">¿De qué se trata?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan tortor et justo laoreet, in iaculis diam pretium. Nunc posuere neque nisi, nec tristique neque tempor id. Etiam nec ultrices est, non varius massa.</p>
+               </div>
+               <div class="col-sm-4 offset-md-1 py-3">
+                  <h4 class="color-lugares-dark">Contacto</h4>
+                  <i class="bi bi-instagram text-muted"></i>   <a href="#" class="link-dark text-muted">@lugares.uy</a>
+               </div>
             </div>
-            <div class="col-sm-4 offset-md-1 py-3">
-              <h4 class="color-lugares-dark">Contacto</h4>
-                <i class="bi bi-instagram text-muted"></i>   <a href="#" class="link-dark text-muted">@lugares.uy</a>
-            </div>
-          </div>
-        </div>
+         </div>
       </div>
       <div class="navbar navbar-light bg-light shadow-sm">
-        <div class="container">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <p class="font-title"><span class="color-lugares-dark">Lugares</span><span class="color-lugares-light">.uy</span></p>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-        </div>
+         <div class="container">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+               <p class="font-title"><span class="color-lugares-dark">Lugares</span><span class="color-lugares-light">.uy</span></p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+         </div>
       </div>
-  </head>
-  <body>
-    <main>
-      <section class="text-center container bg-light">
-        <div class="row py-lg-2">
-          <div class="py-4 col-lg-6 col-md-8 mx-auto">
-            <i class="fa-solid fa-map-pin color-lugares-dark" style="font-size: 3rem"></i>
-            <h2 class="fw-light">Piriápolis, Maldonado</h2>
-          </div>
-        </div>
-      </section>
-  <div class="album bg-light">
-    <div class="container">
-      <h1 class="py-2">Plantas</h1>
-      <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="assets/img/2.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
-            <div class="card-body">
-              <p class="card-text">Nombre de la especie</p>
-              <div class="d-flex justify-content-between align-items-center">
-              </div>
+      <!-- Audio -->
+      <style>
+         audio::-internal-media-controls-download-button {
+         display:none;
+         }
+         audio::-webkit-media-controls-enclosure {
+         overflow:hidden;
+         }
+         audio::-webkit-media-controls-panel {
+         width: calc(100% + 33px);
+         }  
+      </style>
+   </head>
+   <body>
+      <main>
+         <section class="text-center container bg-light">
+            <div class="row py-lg-2">
+               <div class="py-4 col-lg-6 col-md-8 mx-auto">
+                  <i class="fa-solid fa-map-pin color-lugares-dark" style="font-size: 3rem"></i>
+                  <h2 class="fw-light">Piriápolis, Maldonado</h2>
+               </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="assets/img/thumbail.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
-            <div class="card-body">
-              <p class="card-text">Nombre de la especie</p>
-              <div class="d-flex justify-content-between align-items-center">
-                
-              </div>
+         </section>
+         <div class="album">
+            <div class="container bg-light">
+               <h1 class="py-2">Aves</h1>
+               <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-3">
+                <a href="info.html" class="text-reset text-decoration-none">
+                  <div class="col">
+                     <div class="card shadow-sm">
+                        <img src="assets/img/2.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
+                        <div class="card-body">
+                           <p class="card-text">Biguá</p>
+                           <div class="d-flex justify-content-between align-items-center">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                </a>
+                <a href="info.html" class="text-reset text-decoration-none">
+                  <div class="col">
+                     <div class="card shadow-sm">
+                        <img src="assets/img/thumbail.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
+                        <div class="card-body">
+                           <p class="card-text">Nombre de la especie</p>
+                           <div class="d-flex justify-content-between align-items-center">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                </a>
+                <a href="info.html" class="text-reset text-decoration-none">
+                  <div class="col">
+                     <div class="card shadow-sm">
+                        <img src="assets/img/thumbail.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
+                        <div class="card-body">
+                           <p class="card-text">Nombre de la especie</p>
+                           <div class="d-flex justify-content-between align-items-center">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                </a>
+                <a href="info.html" class="text-reset text-decoration-none">
+                  <div class="col">
+                     <div class="card shadow-sm">
+                        <img src="assets/img/thumbail.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
+                        <div class="card-body">
+                           <p class="card-text">Nombre de la especie</p>
+                           <div class="d-flex justify-content-between align-items-center">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                </a>
+               </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="assets/img/thumbail.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
-            <div class="card-body">
-              <p class="card-text">Nombre de la especie</p>
-              <div class="d-flex justify-content-between align-items-center">
-                
-              </div>
+            <div class="container">
+               <h1 class="py-3">Plantas</h1>
+               <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-3">
+                <a href="info.html" class="text-reset text-decoration-none">
+                  <div class="col">
+                     <div class="card shadow-sm">
+                        <img src="assets/img/thumbail.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
+                        <div class="card-body">
+                           <p class="card-text">Nombre de la especie</p>
+                           <div class="d-flex justify-content-between align-items-center">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                </a>
+                <a href="info.html" class="text-reset text-decoration-none">
+                  <div class="col">
+                     <div class="card shadow-sm">
+                        <img src="assets/img/thumbail.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
+                        <div class="card-body">
+                           <p class="card-text">Nombre de la especie</p>
+                           <div class="d-flex justify-content-between align-items-center">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  </a>
+                <a href="info.html" class="text-reset text-decoration-none">
+                  <div class="col">
+                     <div class="card shadow-sm">
+                        <img src="assets/img/thumbail.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
+                        <div class="card-body">
+                           <p class="card-text">Nombre de la especie</p>
+                           <div class="d-flex justify-content-between align-items-center">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  </a>
+                <a href="info.html" class="text-reset text-decoration-none">
+                  <div class="col">
+                     <div class="card shadow-sm">
+                        <img src="assets/img/thumbail.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
+                        <div class="card-body">
+                           <p class="card-text">Nombre de la especie</p>
+                           <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                </a>
+               </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="assets/img/thumbail.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
-            <div class="card-body">
-              <p class="card-text">Nombre de la especie</p>
-              <div class="d-flex justify-content-between align-items-center">
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <h1 class="py-3">Plantas</h1>
-      <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="assets/img/thumbail.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
-            <div class="card-body">
-              <p class="card-text">Nombre de la especie</p>
-              <div class="d-flex justify-content-between align-items-center">
-                
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="assets/img/thumbail.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
-            <div class="card-body">
-              <p class="card-text">Nombre de la especie</p>
-              <div class="d-flex justify-content-between align-items-center">
-                
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="assets/img/thumbail.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
-            <div class="card-body">
-              <p class="card-text">Nombre de la especie</p>
-              <div class="d-flex justify-content-between align-items-center">
-                
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="assets/img/thumbail.jpg" class="card-img-top" width="100%" height="225" style="height: 15rem;">
-            <div class="card-body">
-              <p class="card-text">Nombre de la especie</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</main>
-<footer class="text-muted py-5">
-  <div class="container">
-    <p class="float-end mb-1">
-      <a href="#">Volver al inicio</a>
-    </p>
-    <p class="mb-1">:)</p>
-  </div>
-</footer>
-    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>  
-  </body>
+         </div>
+      </main>
+      <footer class="text-muted py-5">
+         <div class="container">
+            <p class="float-end mb-1">
+              <a href="#" class="text-reset">Volver al inicio</a>
+            </p>
+            <p class="mb-1">:)</p>
+         </div>
+      </footer>
+      <script src="assets/dist/js/bootstrap.bundle.min.js"></script>  
+   </body>
 </html>
