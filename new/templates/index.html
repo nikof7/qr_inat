@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<main>
+    <section class="text-center container bg-light">
+        <div class="row py-lg-2">
+            <div class="py-4 col-lg-6 col-md-8 mx-auto">
+                <i class="fa-solid fa-map-pin color-lugares-dark" style="font-size: 3rem"></i>
+                <h2 class="fw-light">{{ site }}</h2>
+            </div>
+        </div>
+    </section>
+    <div class="album">
+        <div class="container bg-light">
+            <h1 class ="py-2">{{ titles[0] }}</h1>
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-3">
+                <a href="info.html" class="text-reset text-decoration-none">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{{ imgs_url[0] }}" class="card-img-top" width="100%" height="225" style="height: 15rem;">
+                            <div class="card-body">
+                                <p class="card-text fst-italic">{{ names[0] }}</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="info.html" class="text-reset text-decoration-none">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{{ imgs_url[1] }}" class="card-img-top" width="100%" height="225" style="height: 15rem;">
+                            <div class="card-body">
+                                <p class="card-text fst-italic">{{ names[1] }}</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="info.html" class="text-reset text-decoration-none">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{{ imgs_url[2] }}" class="card-img-top" width="100%" height="225" style="height: 15rem;">
+                            <div class="card-body">
+                                <p class="card-text fst-italic">{{ names[2] }}</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="info.html" class="text-reset text-decoration-none">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{{imgs_url[3]}}" class="card-img-top" width="100%" height="225" style="height: 15rem;">
+                            <div class="card-body">
+                                <p class="card-text fst-italic">{{ names[3] }}</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

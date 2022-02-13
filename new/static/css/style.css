@@ -1,0 +1,28 @@
+.color-lugares-dark{
+	color: rgb(255, 127, 8);
+}
+.color-lugares-light{
+	color: rgb(255, 209, 89);
+}
+
+@font-face {
+    font-family: 'ralewayheavy';
+    src: url('../fonts/raleway-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-title{
+	font-family: 'ralewayheavy';
+	font-size: 40px;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.navbar{
+	padding: 1px 1px 1px;
+}
