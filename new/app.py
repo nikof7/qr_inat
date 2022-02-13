@@ -48,27 +48,25 @@ def taxon_id_by_common_name(name):
 	taxon_ids = r_json["results"][0]["id"]
 	return taxon_ids
 
+
+# Título
+site = "Localidad, Departamento"
+# Lista de taxas
+titles = ["Aves", "Insectos", "Mamiferos", "Anfibios", "Plantas", "Hongos"]
+# Lista de organismos
+names = rank_of_obs()
+del names[10:]
+
+imgs_url = list()
+
+for i in names:
+	taxon_id = taxon_id_by_common_name(name=i)
+	a = get_photo_of_sp(taxon_id=taxon_id)[0]
+	imgs_url.append(a)
+
 @app.route('/')
 def index():
-		# Título
-	site = "Localidad, Departamento"
-	# Lista de taxas
-	titles = ["Aves", "Insectos", "Mamiferos", "Anfibios", "Plantas", "Hongos"]
-	# Lista de URLs
-	imgs_url = list("kk")
-	# Lista de organismos
-	names = rank_of_obs()
-	del names[10:]
-
-	imgs_url = list()
-
-	for i in names:
-		taxon_id = taxon_id_by_common_name(name=i)
-		a = get_photo_of_sp(taxon_id=taxon_id)[0]
-		imgs_url.append(a)
-
 	return render_template('index.html', site=site, titles=titles, imgs_url=imgs_url, names=names)
-
 
 if __name__ == "__main__":
 	app.run()

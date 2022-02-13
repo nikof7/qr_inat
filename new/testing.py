@@ -1,6 +1,11 @@
 import requests
 from collections import Counter
+import datetime
 
+date_ = datetime.datetime.now()
+print(date_)
+
+# Funciones
 def rank_of_obs(
 	iconic_taxa = "Aves",
 	per_page = "200",
@@ -44,14 +49,20 @@ def taxon_id_by_common_name(name):
 	taxon_ids = r_json["results"][0]["id"]
 	return taxon_ids
 
-names = rank_of_obs()
-del names[10:]
+def site_variables():
+	# Título
+	site = "Localidad, Departamento"
+	# Lista de taxas
+	titles = ["Aves", "Insectos", "Mamiferos", "Anfibios", "Plantas", "Hongos"]
+	# Lista de URLs
+	imgs_url = list("kk")
+	# Lista de organismos
+	names = rank_of_obs()
+	del names[10:]
 
-imgs_url = list()
+	imgs_url = list()
 
-for i in names:
-	taxon_id = taxon_id_by_common_name(name=i)
-	a = get_photo_of_sp(taxon_id=taxon_id)[0]
-	imgs_url.append(a)
-
-print(imgs_url)
+	for i in names:
+		taxon_id = taxon_id_by_common_name(name=i)
+		a = get_photo_of_sp(taxon_id=taxon_id)[0]
+		imgs_url.append(a)
