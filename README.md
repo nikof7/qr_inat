@@ -24,3 +24,5 @@ Probé en realizar el siguiente [request](https://api.inaturalist.org/v1/observa
 - Cantidad de observaciones máxima `per_page=200`
 
 No me convenció porque las observaciones eran pocas, y las especies que sugería no era la más probable de ver.
+
+PROTOTIPO
